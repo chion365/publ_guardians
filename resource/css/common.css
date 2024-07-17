@@ -78,7 +78,8 @@ a:active {color:inherit;}
 .card-swiper .card .wrap-video:after {content:"";display:block;position:absolute;bottom:0;width:1px;height:100%;background-color:#fff;}
 .card-swiper .card .wrap-video:before {left:0}
 .card-swiper .card .wrap-video:after {right:0}
-.card-swiper .wrap-video video {width:100%;border:0;}
+.card-swiper .wrap-video video {width:100%;border:0;controls:none}
+.card-swiper .wrap-video video::-internal-media-controls {display: none !important;}
 .card-swiper .wrap-video video::-webkit-media-controls {display: none !important;}
 .card-swiper .wrap-video video::-webkit-media-controls-start-playback-button {display: none !important;}
 .card-swiper .wrap-video video::-webkit-media-controls-fullscreen-button {display: none !important;}
